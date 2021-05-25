@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "574861185452",
+    "project_id": "gabriellarthurcalisthenics",
+    "storage_bucket": "gabriellarthurcalisthenics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574861185452:android:0410646de25a065e30ea09",
+        "android_client_info": {
+          "package_name": "com.gabriellarthur.calisthenics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574861185452-b4ponn2jscl36kaa7squbn491ukhuses.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzMOiWi7wgnOk1ebNCeYrF1f9DPOjz4w4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574861185452-b4ponn2jscl36kaa7squbn491ukhuses.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
