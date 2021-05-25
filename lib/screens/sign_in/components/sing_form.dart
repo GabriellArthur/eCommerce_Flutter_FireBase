@@ -4,7 +4,6 @@ import 'package:calisthenics/constatns.dart';
 import 'package:calisthenics/controllers/AuthenticationService.dart';
 import 'package:calisthenics/screens/forgot_password/forgot_password_screen.dart';
 import 'package:calisthenics/screens/login_success/login_success_screen.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import '../../../components/default_button.dart';
 import '../../../size_config.dart';

@@ -1,5 +1,5 @@
 import 'package:calisthenics/routes.dart';
-import 'package:calisthenics/screens/complete_profile/complete_profile_screen.dart';
+import 'package:calisthenics/screens/home/home_screen.dart';
 import 'package:calisthenics/screens/splash/splash_screen.dart';
 import 'package:calisthenics/theme.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -30,12 +30,7 @@ class MyApp extends StatelessWidget {
               context.read<AuthenticationService>().authStateChanges,
         ),
       ],
-      child: MaterialApp(
-        title: 'App',
-        debugShowCheckedModeBanner: true,
-        theme: theme(),
-        home: AuthenticationWrapper(),
-      ),
+      child: AuthenticationWrapper(),
     );
   }
 }
@@ -47,11 +42,17 @@ class AuthenticationWrapper extends StatelessWidget {
 
     if (firebaseUser != null) {
       return MaterialApp(
-        initialRoute: CompleteProfileScreen.routeName,
+        title: 'App',
+        debugShowCheckedModeBanner: true,
+        theme: theme(),
+        initialRoute: HomeScreen.routeName,
         routes: routes,
       );
     } else {
       return MaterialApp(
+        title: 'App',
+        debugShowCheckedModeBanner: true,
+        theme: theme(),
         initialRoute: SplashScreen.routeName,
         routes: routes,
       );
