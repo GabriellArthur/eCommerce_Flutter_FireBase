@@ -1,4 +1,4 @@
-import 'package:calisthenics/screens/sign_in/sign_up/components/body.dart';
+import 'package:calisthenics/screens/sign_up/components/body.dart';
 import 'package:flutter/material.dart';
 
 class SignUpScreen extends StatelessWidget {

@@ -3,7 +3,7 @@ import 'package:calisthenics/screens/home/home_screen.dart';
 import 'package:calisthenics/screens/login_success/login_success_screen.dart';
 import 'package:calisthenics/screens/otp/otp_screen.dart';
 import 'package:calisthenics/screens/sign_in/sign_in_screen.dart';
-import 'package:calisthenics/screens/sign_in/sign_up/sign_up_screen.dart';
+import 'package:calisthenics/screens/sign_up/sign_up_screen.dart';
 import 'package:calisthenics/screens/splash/splash_screen.dart';
 import 'package:flutter/widgets.dart';
 

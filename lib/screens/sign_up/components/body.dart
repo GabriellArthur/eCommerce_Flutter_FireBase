@@ -1,6 +1,6 @@
 import 'package:calisthenics/components/socal_card.dart';
 import 'package:calisthenics/constatns.dart';
-import 'package:calisthenics/screens/sign_in/sign_up/components/sign_up_form.dart';
+import 'package:calisthenics/screens/sign_up/components/sign_up_form.dart';
 import 'package:calisthenics/size_config.dart';
 import 'package:flutter/material.dart';
 

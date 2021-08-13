@@ -1,5 +1,5 @@
 import 'package:calisthenics/constatns.dart';
-import 'package:calisthenics/screens/sign_in/sign_up/sign_up_screen.dart';
+import 'package:calisthenics/screens/sign_up/sign_up_screen.dart';
 import 'package:flutter/material.dart';
 import '../size_config.dart';
 
