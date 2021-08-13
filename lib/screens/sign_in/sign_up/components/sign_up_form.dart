@@ -3,7 +3,7 @@ import 'package:calisthenics/components/default_button.dart';
 import 'package:calisthenics/components/form_error.dart';
 import 'package:calisthenics/constatns.dart';
 import 'package:calisthenics/controllers/AuthenticationService.dart';
-import 'package:calisthenics/screens/login_success/login_success_screen.dart';
+import 'package:calisthenics/screens/otp/otp_screen.dart';
 import 'package:flutter/material.dart';
 import '../../../../size_config.dart';
 
@@ -52,15 +52,18 @@ class _SignUpFormState extends State<SignUpForm> {
           DefaultButton(
             text: "Continue",
             press: () async {
+              Navigator.pushNamed(context, OtpScreen.routeName);
+              /*
               if (_formKey.currentState.validate()) {
                 _formKey.currentState.save();
                 await _auth.signUp(
                     email: emailController.text.trim(),
                     password: passwordController.text.trim());
                 if (_auth.statusUsuario == "Signed up") {
-                  Navigator.pushNamed(context, LoginSuccessScreen.routeName);
+                  Navigator.pushNamed(context, OtpScreen.routeName);
                 }
               }
+              */
             },
           ),
         ],
