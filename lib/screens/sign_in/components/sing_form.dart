@@ -3,8 +3,8 @@ import 'package:calisthenics/components/form_error.dart';
 import 'package:calisthenics/constatns.dart';
 import 'package:calisthenics/controllers/AuthenticationService.dart';
 import 'package:calisthenics/screens/forgot_password/forgot_password_screen.dart';
+import 'package:calisthenics/screens/home/home_screen.dart';
 import 'package:calisthenics/screens/otp/otp_screen.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import '../../../components/default_button.dart';
 import '../../../size_config.dart';
@@ -75,6 +75,7 @@ class _SignFormState extends State<SignForm> {
           DefaultButton(
             text: "Continue",
             press: () async {
+              Navigator.pushNamed(context, HomeScreen.routeName);
               if (_formKey.currentState.validate()) {
                 _formKey.currentState.save();
                 await _auth.signIn(

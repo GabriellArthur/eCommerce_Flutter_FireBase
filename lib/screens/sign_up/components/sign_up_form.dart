@@ -2,7 +2,6 @@ import 'package:calisthenics/components/custom_surfix_icon.dart';
 import 'package:calisthenics/components/default_button.dart';
 import 'package:calisthenics/components/form_error.dart';
 import 'package:calisthenics/constatns.dart';
-import 'package:calisthenics/controllers/AuthenticationService.dart';
 import 'package:calisthenics/screens/otp/otp_screen.dart';
 import 'package:flutter/material.dart';
 import '../../../../size_config.dart';
@@ -14,7 +13,7 @@ class SignUpForm extends StatefulWidget {
 
 class _SignUpFormState extends State<SignUpForm> {
   final _formKey = GlobalKey<FormState>();
-  final AuthenticationService _auth = AuthenticationService();
+  //final AuthenticationService _auth = AuthenticationService();
   final TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
   String password;

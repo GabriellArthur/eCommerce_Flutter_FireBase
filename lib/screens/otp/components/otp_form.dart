@@ -1,7 +1,6 @@
 import 'package:calisthenics/components/custom_surfix_icon.dart';
 import 'package:calisthenics/components/default_button.dart';
 import 'package:calisthenics/constatns.dart';
-import 'package:calisthenics/screens/login_success/login_success_screen.dart';
 import 'package:calisthenics/size_config.dart';
 import 'package:flutter/material.dart';
 
